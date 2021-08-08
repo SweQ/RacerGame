@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "1A6-gk-8H4"; */
+"1A6-gk-8H4.text" = "Settings";
+
+/* Class = "UIButton"; normalTitle = "Set player name"; ObjectID = "7S1-xd-kyk"; */
+"7S1-xd-kyk.normalTitle" = "Set player name";
+
+/* Class = "UIButton"; normalTitle = "Type of enemy"; ObjectID = "8J0-L2-t26"; */
+"8J0-L2-t26.normalTitle" = "Type of enemy";
+
+/* Class = "UILabel"; text = "Score: 0"; ObjectID = "B9o-H7-pNy"; */
+"B9o-H7-pNy.text" = "Score: 0";
+
+/* Class = "UILabel"; text = "RECORDS"; ObjectID = "I1J-X5-9EE"; */
+"I1J-X5-9EE.text" = "RECORDS";
+
+/* Class = "UIButton"; normalTitle = "RECORDS TABLE"; ObjectID = "OfS-BQ-vur"; */
+"OfS-BQ-vur.normalTitle" = "RECORDS TABLE";
+
+/* Class = "UIButton"; normalTitle = "PLAY"; ObjectID = "gcM-2n-F6B"; */
+"gcM-2n-F6B.normalTitle" = "PLAY";
+
+/* Class = "UIButton"; normalTitle = "SETTINGS"; ObjectID = "qgB-Sl-TXy"; */
+"qgB-Sl-TXy.normalTitle" = "SETTINGS";

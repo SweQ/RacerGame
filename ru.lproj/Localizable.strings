@@ -1,0 +1,17 @@
+"PLAY" = "ИГРАТЬ";
+"RECORDS TABLE" = "ТАБЛИЦА РЕКОРДОВ";
+"SETTINGS" = "НАСТРОЙКИ";
+"SCORE" = "ОЧКИ";
+"RECORDS" = "РЕКОРДЫ";
+"SET PLAYER NAME" = "УСТАНОВИТЬ ИМЯ ИГРОКА";
+"TYPE OF ENEMY" = "ТИП ВРАГА";
+"Set player name length error" = "Введите имя (макс 10 символов)";
+"OK" = "ОК";
+"CANCEL" = "ЗАКРЫТЬ";
+"Select type of enemy" = "Выбрать тип врага";
+"Green enemy" = "Зеленый враг";
+"Yellow enemy" = "Желтый враг";
+"Blue enemy" = "Голубой враг";
+"Type of controller" = "Тип управления";
+"Display" = "Дисплей";
+"Accelerometer" = "Акселерометр";

@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "60-600760_top-car-view-transpa-png-pictures-free-icons.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

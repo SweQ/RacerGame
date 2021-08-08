@@ -1,0 +1,17 @@
+"PLAY" = "PLAY";
+"RECORDS TABLE" = "RECORDS TABLE";
+"SETTINGS" = "SETTINGS";
+"SCORE" = "SCORE";
+"RECORDS" = "RECORDS";
+"SET PLAYER NAME" = "SET PLAYER NAME";
+"TYPE OF ENEMY" = "TYPE OF ENEMY";
+"Select type of enemy" = "Select type of enemy";
+"Set player name length error" = "Enter name (max 10 symbols)";
+"OK" = "OK";
+"CANCEL" = "CANCEL";
+"Green enemy" = "Green enemy";
+"Yellow enemy" = "Yellow enemy";
+"Blue enemy" = "Blue enemy";
+"Type of controller" = "Type of controller";
+"Display" = "Display";
+"Accelerometer" = "Accelerometer";
