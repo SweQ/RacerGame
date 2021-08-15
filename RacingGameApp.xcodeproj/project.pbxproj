@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6181792F809A1DEB9D46DBFF /* Pods_RacingGameApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098D54F4E424D3018D53A2C2 /* Pods_RacingGameApp.framework */; };
 		72065FD5267665A70043F745 /* RecordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72065FD4267665A70043F745 /* RecordController.swift */; };
 		720DEC302641D32B005ECF2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720DEC2F2641D32B005ECF2B /* AppDelegate.swift */; };
 		720DEC322641D32B005ECF2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720DEC312641D32B005ECF2B /* SceneDelegate.swift */; };
@@ -19,8 +20,14 @@
 		7220316626641021000535EB /* Square One Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7220316526641021000535EB /* Square One Bold.otf */; };
 		722F2B8F265D767C0067C2D0 /* UIView+addShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722F2B8E265D767C0067C2D0 /* UIView+addShadow.swift */; };
 		722F2B92265D78610067C2D0 /* UIView+addCornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722F2B91265D78610067C2D0 /* UIView+addCornerRadius.swift */; };
+		72383B9426C82B4A00C357F6 /* NotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72383B9326C82B4A00C357F6 /* NotificationsController.swift */; };
+		72383B9726C82FB500C357F6 /* TypeOfNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72383B9626C82FB500C357F6 /* TypeOfNotification.swift */; };
 		7240EC7626AECE5F00EBE26B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7240EC7826AECE5F00EBE26B /* Localizable.strings */; };
 		7240EC7C26AED08300EBE26B /* String+localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7240EC7B26AED08300EBE26B /* String+localized.swift */; };
+		7243AE1426C980C200120497 /* GameImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7243AE1326C980C200120497 /* GameImage.swift */; };
+		7243AE1826C98FEE00120497 /* SelectCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7243AE1726C98FEE00120497 /* SelectCarViewController.swift */; };
+		7243AE1C26C9910A00120497 /* SelectCarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7243AE1A26C9910A00120497 /* SelectCarCollectionViewCell.swift */; };
+		7243AE1D26C9910A00120497 /* SelectCarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7243AE1B26C9910A00120497 /* SelectCarCollectionViewCell.xib */; };
 		7245DF6826544C6D00E1CD49 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7245DF6726544C6D00E1CD49 /* Direction.swift */; };
 		7256A0A5266D2A5C003AB780 /* Records.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7256A0A4266D2A5C003AB780 /* Records.swift */; };
 		72A831C126C026F900A51DED /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A831C026C026F900A51DED /* GameViewController.swift */; };
@@ -36,6 +43,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		098D54F4E424D3018D53A2C2 /* Pods_RacingGameApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RacingGameApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72065FD4267665A70043F745 /* RecordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordController.swift; sourceTree = "<group>"; };
 		720DEC2C2641D32B005ECF2B /* RacingGameApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RacingGameApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		720DEC2F2641D32B005ECF2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,11 +58,17 @@
 		7220316526641021000535EB /* Square One Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Square One Bold.otf"; sourceTree = "<group>"; };
 		722F2B8E265D767C0067C2D0 /* UIView+addShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+addShadow.swift"; sourceTree = "<group>"; };
 		722F2B91265D78610067C2D0 /* UIView+addCornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+addCornerRadius.swift"; sourceTree = "<group>"; };
+		72383B9326C82B4A00C357F6 /* NotificationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsController.swift; sourceTree = "<group>"; };
+		72383B9626C82FB500C357F6 /* TypeOfNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeOfNotification.swift; sourceTree = "<group>"; };
 		7240EC7026AECE4500EBE26B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		7240EC7126AECE4500EBE26B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		7240EC7726AECE5F00EBE26B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7240EC7926AECE6400EBE26B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7240EC7B26AED08300EBE26B /* String+localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+localized.swift"; sourceTree = "<group>"; };
+		7243AE1326C980C200120497 /* GameImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameImage.swift; sourceTree = "<group>"; };
+		7243AE1726C98FEE00120497 /* SelectCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCarViewController.swift; sourceTree = "<group>"; };
+		7243AE1A26C9910A00120497 /* SelectCarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCarCollectionViewCell.swift; sourceTree = "<group>"; };
+		7243AE1B26C9910A00120497 /* SelectCarCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectCarCollectionViewCell.xib; sourceTree = "<group>"; };
 		7245DF6726544C6D00E1CD49 /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
 		7256A0A4266D2A5C003AB780 /* Records.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Records.swift; sourceTree = "<group>"; };
 		72A831C026C026F900A51DED /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +81,8 @@
 		72FD9928266D09DD006DE6FD /* GameSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettings.swift; sourceTree = "<group>"; };
 		72FD992B266D1B8E006DE6FD /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeys.swift; sourceTree = "<group>"; };
 		72FD992E266D1D6D006DE6FD /* UserDefaults+SetGetValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+SetGetValue.swift"; sourceTree = "<group>"; };
+		DBC91DE3CFF0AD1DE0E0210D /* Pods-RacingGameApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RacingGameApp.release.xcconfig"; path = "Target Support Files/Pods-RacingGameApp/Pods-RacingGameApp.release.xcconfig"; sourceTree = "<group>"; };
+		ED9984AE79E234ECD525A34D /* Pods-RacingGameApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RacingGameApp.debug.xcconfig"; path = "Target Support Files/Pods-RacingGameApp/Pods-RacingGameApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,18 +90,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6181792F809A1DEB9D46DBFF /* Pods_RacingGameApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B6F0CF87E1D735656E37375 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				098D54F4E424D3018D53A2C2 /* Pods_RacingGameApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		218C80C75CF4BE6D12B69A67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED9984AE79E234ECD525A34D /* Pods-RacingGameApp.debug.xcconfig */,
+				DBC91DE3CFF0AD1DE0E0210D /* Pods-RacingGameApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		720DEC232641D32B005ECF2B = {
 			isa = PBXGroup;
 			children = (
 				7240EC7826AECE5F00EBE26B /* Localizable.strings */,
 				720DEC2E2641D32B005ECF2B /* RacingGameApp */,
 				720DEC2D2641D32B005ECF2B /* Products */,
+				218C80C75CF4BE6D12B69A67 /* Pods */,
+				1B6F0CF87E1D735656E37375 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,11 +144,16 @@
 				72A831CB26C027CE00A51DED /* TurnDirection.swift */,
 				720DEC312641D32B005ECF2B /* SceneDelegate.swift */,
 				720DEC352641D32B005ECF2B /* Main.storyboard */,
+				7243AE1A26C9910A00120497 /* SelectCarCollectionViewCell.swift */,
+				7243AE1B26C9910A00120497 /* SelectCarCollectionViewCell.xib */,
+				7243AE1726C98FEE00120497 /* SelectCarViewController.swift */,
 				72EE56B7268F2447001876F5 /* controllers */,
 				72EE56B8268F2469001876F5 /* extensions */,
 				72FD9928266D09DD006DE6FD /* GameSettings.swift */,
 				7256A0A4266D2A5C003AB780 /* Records.swift */,
+				7243AE1326C980C200120497 /* GameImage.swift */,
 				72EE56BA268F25DA001876F5 /* RecordTableViewCell.swift */,
+				72383B9626C82FB500C357F6 /* TypeOfNotification.swift */,
 				72EE56BB268F25DA001876F5 /* RecordTableViewCell.xib */,
 				7245DF6726544C6D00E1CD49 /* Direction.swift */,
 				720DEC382641D32F005ECF2B /* Assets.xcassets */,
@@ -138,6 +179,7 @@
 				72065FD4267665A70043F745 /* RecordController.swift */,
 				720DEC482641D46B005ECF2B /* RecordsViewController.swift */,
 				72A831C026C026F900A51DED /* GameViewController.swift */,
+				72383B9326C82B4A00C357F6 /* NotificationsController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -161,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 720DEC402641D32F005ECF2B /* Build configuration list for PBXNativeTarget "RacingGameApp" */;
 			buildPhases = (
+				584AF0080A72A4216B5B14FE /* [CP] Check Pods Manifest.lock */,
 				720DEC282641D32B005ECF2B /* Sources */,
 				720DEC292641D32B005ECF2B /* Frameworks */,
 				720DEC2A2641D32B005ECF2B /* Resources */,
+				726DEEAB26C139D9005619CD /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -214,6 +258,7 @@
 			files = (
 				720DEC3C2641D32F005ECF2B /* LaunchScreen.storyboard in Resources */,
 				7240EC7626AECE5F00EBE26B /* Localizable.strings in Resources */,
+				7243AE1D26C9910A00120497 /* SelectCarCollectionViewCell.xib in Resources */,
 				720DEC392641D32F005ECF2B /* Assets.xcassets in Resources */,
 				7220316626641021000535EB /* Square One Bold.otf in Resources */,
 				72EE56BD268F25DA001876F5 /* RecordTableViewCell.xib in Resources */,
@@ -223,12 +268,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		584AF0080A72A4216B5B14FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RacingGameApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		726DEEAB26C139D9005619CD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\"\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		720DEC282641D32B005ECF2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7256A0A5266D2A5C003AB780 /* Records.swift in Sources */,
+				72383B9726C82FB500C357F6 /* TypeOfNotification.swift in Sources */,
+				7243AE1426C980C200120497 /* GameImage.swift in Sources */,
 				72A831CC26C027CF00A51DED /* TurnDirection.swift in Sources */,
 				7245DF6826544C6D00E1CD49 /* Direction.swift in Sources */,
 				72065FD5267665A70043F745 /* RecordController.swift in Sources */,
@@ -237,6 +326,7 @@
 				72A831D426C0297300A51DED /* PlayerCar.swift in Sources */,
 				72FD9929266D09DD006DE6FD /* GameSettings.swift in Sources */,
 				720DEC302641D32B005ECF2B /* AppDelegate.swift in Sources */,
+				7243AE1C26C9910A00120497 /* SelectCarCollectionViewCell.swift in Sources */,
 				72FD992C266D1B8E006DE6FD /* UserDefaultsKeys.swift in Sources */,
 				72EE56BC268F25DA001876F5 /* RecordTableViewCell.swift in Sources */,
 				722F2B8F265D767C0067C2D0 /* UIView+addShadow.swift in Sources */,
@@ -246,6 +336,8 @@
 				72A831C126C026F900A51DED /* GameViewController.swift in Sources */,
 				720DEC492641D46B005ECF2B /* RecordsViewController.swift in Sources */,
 				72A831D726C0299600A51DED /* Car.swift in Sources */,
+				72383B9426C82B4A00C357F6 /* NotificationsController.swift in Sources */,
+				7243AE1826C98FEE00120497 /* SelectCarViewController.swift in Sources */,
 				722F2B92265D78610067C2D0 /* UIView+addCornerRadius.swift in Sources */,
 				720DEC4C2641D474005ECF2B /* SettingsViewController.swift in Sources */,
 			);
@@ -404,6 +496,7 @@
 		};
 		720DEC412641D32F005ECF2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED9984AE79E234ECD525A34D /* Pods-RacingGameApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -423,6 +516,7 @@
 		};
 		720DEC422641D32F005ECF2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBC91DE3CFF0AD1DE0E0210D /* Pods-RacingGameApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

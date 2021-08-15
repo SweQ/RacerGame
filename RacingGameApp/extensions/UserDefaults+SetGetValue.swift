@@ -11,7 +11,7 @@ extension UserDefaults {
     func setValue(_ value: Any?, forKey key: UserDefaultsKeys) {
         setValue(value, forKey: key.rawValue)
     }
-    
+
     func value(forKey key: UserDefaultsKeys) -> Any? {
         return value(forKey: key.rawValue)
     }

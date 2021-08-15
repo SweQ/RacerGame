@@ -17,7 +17,7 @@ class Car {
         self.model = UIImageView(image: image)
         self.size = size
         self.model.contentMode = .scaleAspectFill
-        //self.model.backgroundColor = .orange
+        // self.model.backgroundColor = .orange
         self.model.bounds.size = size
         self.model.center = startPosition
         self.startPosition = startPosition

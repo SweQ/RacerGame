@@ -206,7 +206,7 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="typeOfEnemyButtonPressed:" destination="jl1-R5-PNd" eventType="touchUpInside" id="ZIk-xK-rtg"/>
+                                            <action selector="typeOfPlayerCarButtonPressed:" destination="jl1-R5-PNd" eventType="touchUpInside" id="ZIk-xK-rtg"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w4W-W2-fbJ">
@@ -258,6 +258,43 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yLv-o4-CoW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3836" y="92.203898050974516"/>
+        </scene>
+        <!--Select Car View Controller-->
+        <scene sceneID="7bu-6n-4n4">
+            <objects>
+                <viewController storyboardIdentifier="SelectCarViewController" id="QNS-Sy-WAd" customClass="SelectCarViewController" customModule="RacingGameApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ujl-bT-Ed6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="RHc-0e-9WX">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="c7p-HA-CYb">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mIJ-ea-NxP"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mIJ-ea-NxP" firstAttribute="bottom" secondItem="RHc-0e-9WX" secondAttribute="bottom" id="Aur-5K-BDy"/>
+                            <constraint firstItem="RHc-0e-9WX" firstAttribute="leading" secondItem="mIJ-ea-NxP" secondAttribute="leading" id="fJX-1U-e2a"/>
+                            <constraint firstItem="mIJ-ea-NxP" firstAttribute="trailing" secondItem="RHc-0e-9WX" secondAttribute="trailing" id="vFq-52-bPE"/>
+                            <constraint firstItem="RHc-0e-9WX" firstAttribute="top" secondItem="mIJ-ea-NxP" secondAttribute="top" id="wJn-ca-ICU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="RHc-0e-9WX" id="wrJ-og-Vxg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UrZ-ex-sg6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4600" y="79"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="NCL-Nn-OqF">

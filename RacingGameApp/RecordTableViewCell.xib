@@ -10,15 +10,15 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" restorationIdentifier="RecordTableViewCell" selectionStyle="default" indentationWidth="10" rowHeight="161" id="KGk-i7-Jjw" customClass="RecordTableViewCell" customModule="RacingGameApp" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="425" height="161"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="RecordTableViewCell" selectionStyle="default" indentationWidth="10" rowHeight="213" id="KGk-i7-Jjw" customClass="RecordTableViewCell" customModule="RacingGameApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="425" height="213"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="425" height="161"/>
+                <rect key="frame" x="0.0" y="0.0" width="425" height="213"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dcm-7s-XgS">
-                        <rect key="frame" x="5" y="5" width="415" height="151"/>
+                        <rect key="frame" x="5" y="5" width="415" height="203"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KoN-Br-Pdw">
                                 <rect key="frame" x="5" y="5" width="405" height="20"/>
@@ -30,13 +30,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="92t-d1-NDy">
-                                <rect key="frame" x="5" y="35" width="290.5" height="111"/>
+                                <rect key="frame" x="5" y="35" width="405" height="51"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bx4-B5-ogt">
-                                <rect key="frame" x="379" y="131.5" width="31" height="14.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bx4-B5-ogt">
+                                <rect key="frame" x="5" y="96" width="405" height="102"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -44,15 +44,17 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="92t-d1-NDy" secondAttribute="trailing" constant="5" id="1hM-kQ-iXC"/>
+                            <constraint firstItem="92t-d1-NDy" firstAttribute="leading" secondItem="dcm-7s-XgS" secondAttribute="leading" constant="5" id="3Q0-z5-uh0"/>
                             <constraint firstItem="KoN-Br-Pdw" firstAttribute="top" secondItem="dcm-7s-XgS" secondAttribute="top" constant="5" id="4km-lT-2fb"/>
                             <constraint firstAttribute="trailing" secondItem="KoN-Br-Pdw" secondAttribute="trailing" constant="5" id="BJ1-e1-Fhj"/>
+                            <constraint firstAttribute="bottom" secondItem="bx4-B5-ogt" secondAttribute="bottom" constant="5" id="HIR-F5-UwQ"/>
                             <constraint firstItem="KoN-Br-Pdw" firstAttribute="leading" secondItem="dcm-7s-XgS" secondAttribute="leading" constant="5" id="Kk0-iF-ndO"/>
-                            <constraint firstItem="92t-d1-NDy" firstAttribute="width" secondItem="dcm-7s-XgS" secondAttribute="width" multiplier="0.7" id="RHz-Z4-0bA"/>
-                            <constraint firstAttribute="bottom" secondItem="92t-d1-NDy" secondAttribute="bottom" constant="5" id="XNg-r1-HPn"/>
-                            <constraint firstItem="92t-d1-NDy" firstAttribute="top" secondItem="KoN-Br-Pdw" secondAttribute="bottom" constant="10" id="v2J-In-pqr"/>
-                            <constraint firstAttribute="trailing" secondItem="bx4-B5-ogt" secondAttribute="trailing" constant="5" id="v6x-Ih-6ZI"/>
-                            <constraint firstItem="92t-d1-NDy" firstAttribute="leading" secondItem="dcm-7s-XgS" secondAttribute="leading" constant="5" id="vHP-dy-tx8"/>
-                            <constraint firstAttribute="bottom" secondItem="bx4-B5-ogt" secondAttribute="bottom" constant="5" id="ylX-Ak-swM"/>
+                            <constraint firstItem="bx4-B5-ogt" firstAttribute="leading" secondItem="dcm-7s-XgS" secondAttribute="leading" constant="5" id="OuQ-G6-gdC"/>
+                            <constraint firstItem="92t-d1-NDy" firstAttribute="height" secondItem="dcm-7s-XgS" secondAttribute="height" multiplier="1:4" id="bhL-FP-mXI"/>
+                            <constraint firstItem="bx4-B5-ogt" firstAttribute="top" secondItem="92t-d1-NDy" secondAttribute="bottom" constant="10" id="d1R-eh-Swt"/>
+                            <constraint firstItem="92t-d1-NDy" firstAttribute="top" secondItem="KoN-Br-Pdw" secondAttribute="bottom" constant="10" id="dEc-Yt-o39"/>
+                            <constraint firstAttribute="trailing" secondItem="bx4-B5-ogt" secondAttribute="trailing" constant="5" id="gle-UM-HMK"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -70,7 +72,7 @@
                 <outlet property="playerLabel" destination="KoN-Br-Pdw" id="sid-2u-8bt"/>
                 <outlet property="recordLabel" destination="92t-d1-NDy" id="c2i-Wa-pZ4"/>
             </connections>
-            <point key="canvasLocation" x="177.536231884058" y="123.54910714285714"/>
+            <point key="canvasLocation" x="177.536231884058" y="140.95982142857142"/>
         </tableViewCell>
     </objects>
     <resources>

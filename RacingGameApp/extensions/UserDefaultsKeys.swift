@@ -12,4 +12,5 @@ enum UserDefaultsKeys: String {
     case records = "Records"
     case enemyType = "Enemy_type"
     case isControllerAcceleration = "isControllerAcceleration"
+    case playerCar
 }

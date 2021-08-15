@@ -13,14 +13,13 @@ class RecordTableViewCell: UITableViewCell {
     @IBOutlet weak var playerLabel: UILabel!
     @IBOutlet weak var recordLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
-    
-    
+
     override func awakeFromNib() {
         super.awakeFromNib()
         mainVIew.backgroundColor = .systemRed
         mainVIew.layer.cornerRadius = 10
     }
-    
+
     func showRecord(record: Record) {
         let dateFormatter = DateFormatter()
         dateFormatter.timeStyle = .short
@@ -28,13 +27,9 @@ class RecordTableViewCell: UITableViewCell {
         dateLabel.text = dateFormatter.string(from: record.date)
         playerLabel.text = record.playerName
         recordLabel.text = "\(record.score)"
-        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        
     }
-    
 }
